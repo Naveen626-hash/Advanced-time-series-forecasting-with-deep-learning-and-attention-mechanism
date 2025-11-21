@@ -63,9 +63,9 @@ keras.utils.get_custom_objects().update({'Attention': AttentionWrapper})
 
 st.set_page_config(layout="wide", page_title="LSTM+Attention Forecast")
 
-MODEL_PATH = "/content/drive/MyDrive/model.pkl"
-SCALER_PATH = "/content/drive/MyDrive/scaler.pkl"
-DATA_PATH = "/content/drive/MyDrive/app/DAYTON_hourly.csv"
+MODEL_PATH = "project 1/model.pkl"
+SCALER_PATH = "project 1/scaler.pkl"
+DATA_PATH = "project 1/DAYTON_hourly.csv"
 
 @st.cache_resource
 def load_resources():
